@@ -42,8 +42,8 @@ h3 {
   margin-bottom: 30px;
 }
 .products li img {
-  max-width: 100%;
-  height: auto;
+  width: 300px;
+  height: 500px;
   display: block;
 }
 .product-thumb {
@@ -54,9 +54,9 @@ h3 {
   text-decoration: none;
 }
 .product-info a.product-cat {
-  font-size: 11px;
+  font-size: 14px;
   text-transform: uppercase;
-  color: #9e9e9e;
+  color: black;
   padding: 3px 0px;
 }
 .product-info a.product-name {
@@ -91,4 +91,70 @@ h3 {
 }
 .products li :hover a.buy-now {
   bottom: 0px;
+}
+
+#neverland {
+  width: 824px;
+  max-height: auto;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+html {
+  background: url(https://th.bing.com/th?id=OIP.O3-o99xEjJJtQcsSK1KYcAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.7&pid=3.1&rm=2);
+  background: no-repeat;
+}
+.navbar {
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+.navbar__logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+.navbar__options {
+  display: flex;
+}
+.navbar__option {
+  margin-right: 15px;
+}
+.navbar__option--search input[type="text"] {
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.nav-search-submit {
+  position: relative;
+}
+#nav-search-submit-button {
+  position: relative;
+  left: 100%;
+}
+.navbar__options h4 {
+  text-align: center;
+}
+.navbar__option h4 {
+  text-decoration: none;
+}
+.mid img {
+  height: 123px;
+  width: auto;
+}
+.nav-search-field {
+  color: #111;
+}
+.navbar__option h4 {
+  text-decoration: none;
 }

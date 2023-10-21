@@ -4,25 +4,221 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css/style.css" />
-    <title>Sản Phẩm Cửa Hàng</title>
+    <title>Aloha Store</title>
   </head>
   <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img
+          src="./resource/logo.jpg"
+          alt="Book logo"
+          style="width: 100px; height: auto"
+        />
+        <h3>
+          <div id="nav-location">
+            <label for="location">Location</label>
+            <select name="location" id="location">
+              <option value="vietnam">Vietnam</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+              <option value="china">China</option>
+              <option value="fance">France</option>
+            </select>
+          </div>
+        </h3>
+      </div>
+      <div class="mid">
+        <img src="./resource/bgsach.jpg" alt="" />
+      </div>
+      <div class="navbar__options">
+        <div class="navbar__option">
+          <h4 style="color: black; margin-bottom: 10px">Search Book</h4>
+          <div id="nav-search">
+            <form
+              id="nav-search-bar-form"
+              accept-charset="UTF-8"
+              action=""
+              class="nav-search-book"
+              method="get"
+              name="site-search"
+              role="search"
+            >
+              <div class="nav-left">
+                <div id="nav-search-dropdown">
+                  <div class="nav-search-scope">
+                    <i class="nav-icon"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-fill">
+                <div
+                  class="nav-search-field"
+                  style="display: inline-block; vertical-align: middle"
+                >
+                  <label
+                    for="twotabsearchtextbox"
+                    style="display: none; margin-bottom: 10px"
+                    >Search Book</label
+                  >
+                  <input
+                    type="text"
+                    id="twotabsearchtextbox"
+                    value
+                    name="field-keywords"
+                    autocomplete="off"
+                    placeholder="Search Book"
+                    class="nav-input-attribute"
+                    dir="auto"
+                    tabindex="0"
+                    aria-label="Search Book"
+                    spellcheck="false"
+                  />
+                </div>
+                <div id="nav-iss-attach"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="navbar__option">
+          <h4 style="text-decoration: none">
+            <a href="" style="text-decoration: none; color: black"
+              >Hello, sign in</a
+            >
+          </h4>
+        </div>
+        <div class="navbar__option navbar__option--account">
+          <h4>
+            <a href="" style="text-decoration: none; color: black"
+              >Account & Lists</a
+            >
+          </h4>
+        </div>
+      </div>
+    </nav>
+    <!-- -->
     <div id="wrapper">
       <div class="headline">
-        <h3>Sản Phẩm bán chạy</h3>
+        <h3>Best Seller</h3>
       </div>
       <ul class="products">
         <li>
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 1.jpg" alt="" />
+                <img src="./resource/A brief history of time.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
+              <a href="" class="product-cat">A Brief History of Time</a>
+              <a href="" class="product-name"> Stephen Hawking</a>
+              <div class="product-price">9.99$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/A heartbreaking.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat"
+                >A Heartbreaking Work of Staggering Genius</a
+              >
+              <a href="" class="product-name"> Dave Eggers</a>
+              <div class="product-price">11.69$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/diary of a wimpy kid.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Diary of a Wimpy Kid</a>
+              <a href="" class="product-name">Jeff Kinney</a>
+              <div class="product-price">2.83$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Dune.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Dune</a>
+              <a href="" class="product-name">Frank Herbert</a>
+              <div class="product-price">10.00$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Fahrenheit 451.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Fahrenheit 451</a>
+              <a href="" class="product-name"> Ray Bradbury</a>
+              <div class="product-price">8.89$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/the road.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Road</a>
+              <a href="" class="product-name"> Cormac McCarthy</a>
+              <div class="product-price">7.91$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Gone girl.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Gone Girl</a>
+              <a href="" class="product-name">Gillian Flynn</a>
+              <div class="product-price">5.27$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Long way gone.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Long Way Gone</a>
+              <a href="" class="product-name">Ishmael Beah</a>
               <div class="product-price">2.99$</div>
             </div>
           </div>
@@ -31,14 +227,32 @@
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 2.jpg" alt="" />
+                <img src="./resource/Middlesex.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
-              <div class="product-price">2.99$</div>
+              <a href="" class="product-cat">Middlesex</a>
+              <a href="" class="product-name"> Jeffrey Eugenides</a>
+              <div class="product-price">11.27$</div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/moneyball.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat"
+                >Moneyball: The Art of Winning an Unfair Game</a
+              >
+              <a href="" class="product-name"> Michael Lewis </a>
+              <div class="product-price">11.29$</div>
             </div>
           </div>
         </li>
@@ -46,14 +260,18 @@
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 3.jpg" alt="" />
+                <img src="./resource/of human.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
-              <div class="product-price">2.99$</div>
+              <a href="" class="product-cat"
+                >Of Human Bondage (Bantam Classics)</a
+              >
+              <a href="" class="product-name"
+                >W. Somerset Maugham, Jane Smiley</a
+              >
+              <div class="product-price">5.95$</div>
             </div>
           </div>
         </li>
@@ -61,14 +279,14 @@
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 4.jpg" alt="" />
+                <img src="./resource/right stuff.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
-              <div class="product-price">2.99$</div>
+              <a href="" class="product-cat">RIGHT STUFF </a>
+              <a href="" class="product-name">Tom Wolfe</a>
+              <div class="product-price">12.99$</div>
             </div>
           </div>
         </li>
@@ -76,14 +294,14 @@
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 5.gif" alt="" />
+                <img src="./resource/The Bad Beginning.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
-              <div class="product-price">2.99$</div>
+              <a href="" class="product-cat">The Bad Beginning: Or, Orphans!</a>
+              <a href="" class="product-name">Lemony Snicket, Brett Helquist</a>
+              <div class="product-price">7.90$</div>
             </div>
           </div>
         </li>
@@ -91,14 +309,14 @@
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 6.jpg" alt="" />
+                <img src="./resource/the correction.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
-              <div class="product-price">2.99$</div>
+              <a href="" class="product-cat">The Corrections: A Novel</a>
+              <a href="" class="product-name">Jonathan Franzen</a>
+              <div class="product-price">17.97$</div>
             </div>
           </div>
         </li>
@@ -106,14 +324,14 @@
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 7.gif" alt="" />
+                <img src="./resource/The devil.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
-              <div class="product-price">2.99$</div>
+              <a href="" class="product-cat">The Devil in the White City</a>
+              <a href="" class="product-name"> Erik Larson</a>
+              <div class="product-price">7.90$</div>
             </div>
           </div>
         </li>
@@ -121,14 +339,46 @@
           <div class="product-item">
             <div class="product-top">
               <a href="" class="product-thum">
-                <img src="./resource/ảnh 8.jpg" alt="" />
+                <img src="./resource/the diary of a young girl.jpg" alt="" />
               </a>
               <a href="" class="buy-now">Buy now</a>
             </div>
             <div class="product-info">
-              <a href="" class="product-cat">Bag </a>
-              <a href="" class="product-name">Đỗ Văn Quý</a>
-              <div class="product-price">2.99$</div>
+              <a href="" class="product-cat">The Diary of a Young Girl</a>
+              <a href="" class="product-name"
+                >Anne Frank, Otto H. Frank, & 3 more</a
+              >
+              <div class="product-price">4.99$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/the giver.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Giver </a>
+              <a href="" class="product-name"> Lois Lowry</a>
+              <div class="product-price">12.02$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/the power broker.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Power Broker</a>
+              <a href="" class="product-name"> Robert A. Caro</a>
+              <div class="product-price">18.13$</div>
             </div>
           </div>
         </li>
