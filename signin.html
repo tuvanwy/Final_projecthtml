@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sty.css" />
+    <title>Sign in</title>
+    <style>
+      .button {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 20px;
+      }
+
+      .button:hover {
+        background-color: #ffcccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div id="exit" style="width: 20px; height: 20px">
+          <a href="./index.html">
+            <img
+              style="width: 20px; height: 20px"
+              src="./resource/exit.png"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="heading">
+          <a href="">
+            <img
+              style="width: 30px; height: 30px"
+              src="./resource/lg.png"
+              alt=""
+            />
+          </a>
+          <h1>Sign In With</h1>
+        </div>
+        <div
+          class="sign-in"
+          style="
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+          "
+        >
+          <a href="#" class="btn-face">
+            <img
+              style="height: 70px; width: 70px; margin-right: 30px"
+              src="./resource/fb2.png"
+              alt=""
+            />
+          </a>
+          <a href="#" class="btn-face m-b-20">
+            <img
+              style="height: 70px; width: 70px; margin-right: 30px"
+              src="./resource/gg.png"
+              alt=""
+            />
+          </a>
+          <a href="#" class="btn-face m-b-20">
+            <img
+              style="height: 70px; width: 70px; margin-right: 30px"
+              src="./resource/tw2.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <label for="name">Username</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter Username"
+          required
+        />
+        <br />
+        <label for="card">Password</label>
+        <a href="#" class="" style="color: #f7a3a3; font-size: 12px">
+          Forgot?
+        </a>
+        <input
+          type="text"
+          minlength="16"
+          maxlength="16"
+          id="card"
+          name="card"
+          placeholder="Enter Password"
+        />
+
+        <br />
+        <button class="button">Sign In</button>
+        <div style="margin-top: 20px" class="w-full text-center p-t-55">
+          <span class="txt2"> Not a member? </span>
+          <a href="#" class="txt2" style="color: #f7a3a3; font-size: 12px">
+            Sign up now
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
