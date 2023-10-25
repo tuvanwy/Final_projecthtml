@@ -13,7 +13,7 @@ body {
   font-size: 14px;
   color: #111;
   line-height: 1.15;
-  background-color: #ebe6e6;
+  background-color: white;
 }
 .headline {
   text-align: center;
@@ -115,6 +115,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  background-color: #ebe6e6;
 }
 .navbar__logo {
   display: flex;
